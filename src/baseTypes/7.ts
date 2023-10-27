@@ -7,5 +7,7 @@ enum dayWeek { Monday = "work", Tuesday = "work", Wednesday = "work", Thursday =
 
 
 export function isWeekend(day: dayWeek): boolean {
-    return day !== "work" ? true : false; 
+    return dayWeek[day] !== "work" ? true : false; 
 }
+
+
